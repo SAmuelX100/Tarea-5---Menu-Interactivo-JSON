@@ -1,0 +1,85 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+/* Fondo de la página */
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background_1.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+}
+
+/* Estilos del menú */
+.menu ul {
+    list-style: none;
+    background: #22438C;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 25px 30px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.menu ul li a:hover {
+    background: #112C66;
+}
+
+/* Submenús */
+.menu ul li ul.cascada {
+    width: 100%;
+    background: #22438C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+}
+
+.menu ul li ul.cascada li {
+    display: block;
+    text-align: left;
+}
+
+.menu ul li:hover ul.cascada {
+    display: block;
+}
+
+/* Estilos de los letreros */
+.letreros {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 5px 6px black;
+}
+
+.letreros h1 {
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+.letreros p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 35px;
+}
