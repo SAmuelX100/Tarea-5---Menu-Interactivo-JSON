@@ -7,17 +7,18 @@
       },
       {
         "id": 2,
-        "nombre": "Cuentas",
+        "nombre": "Cuentas . ",
         "enlace": "#",
         "submenu": [
           { "nombre": "Ahorro en Pesos", "enlace": "/cuentas/ahorro-pesos" },
           { "nombre": "Ahorro en Dólares", "enlace": "/cuentas/ahorro-dolares" },
-          {"nombre": "Ahorro en Euros", "enlace":"/cuentas/ahorro-euros"}
+          {"nombre": "Ahorro en Euros", "enlace":"/cuentas/ahorro-euros"},
+          {"nombre": "Corriente Personal", "enlace":"/cuentas/corriente-Personal"}
         ]
       },
       {
         "id": 3,
-        "nombre": "Inversiones",
+        "nombre": "Inversiones . ",
         "enlace": "#",
         "submenu": [
           { "nombre": "Fondos de Inversión", "enlace": "/inversiones/fondos" }
@@ -25,10 +26,18 @@
       },
       {
         "id": 4,
-        "nombre": "Tarjetas",
+        "nombre": "Tarjetas . ",
         "enlace": "#",
         "submenu":[
             {"nombre": "MasterCard Debito Dolares", "enlace": "/Tarjetas/debito-dolares"}
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Prestamos . ",
+        "enlace": "#",
+        "submenu":[
+            {"nombre": "Prestamos de consumo", "enlace": "/prestamos/prestamos-consumo"}
         ]
       }
 
