@@ -11,7 +11,8 @@
         "enlace": "#",
         "submenu": [
           { "nombre": "Ahorro en Pesos", "enlace": "/cuentas/ahorro-pesos" },
-          { "nombre": "Ahorro en Dólares", "enlace": "/cuentas/ahorro-dolares" }
+          { "nombre": "Ahorro en Dólares", "enlace": "/cuentas/ahorro-dolares" },
+          {"nombre": "Ahorro en Euros", "enlace":"/cuentas/ahorro-euros"}
         ]
       },
       {
@@ -21,7 +22,16 @@
         "submenu": [
           { "nombre": "Fondos de Inversión", "enlace": "/inversiones/fondos" }
         ]
+      },
+      {
+        "id": 4,
+        "nombre": "Tarjetas",
+        "enlace": "#",
+        "submenu":[
+            {"nombre": "MasterCard Debito Dolares", "enlace": "/Tarjetas/debito-dolares"}
+        ]
       }
+
     ]
   }
   
